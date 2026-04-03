@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Shivani Das - Medicine Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Roboto', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+    <header class="sticky top-0 z-50 bg-blue-950 text-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#home" class="text-2xl font-black tracking-wider text-sky-400">Dr. Shivani Das</a>
+                </div>
+                
+                <nav class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-300 hover:text-white hover:border-b-2 border-sky-400 pb-1 font-medium transition-all">Home</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:border-b-2 border-sky-400 pb-1 font-medium transition-all">About</a>
+                    <a href="#expertise" class="text-gray-300 hover:text-white hover:border-b-2 border-sky-400 pb-1 font-medium transition-all">Expertise</a>
+                    <a href="#experience" class="text-gray-300 hover:text-white hover:border-b-2 border-sky-400 pb-1 font-medium transition-all">Experience</a>
+                    <a href="#contact" class="text-gray-300 hover:text-white hover:border-b-2 border-sky-400 pb-1 font-medium transition-all">Contact</a>
+                </nav>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white focus:outline-none">
+                        <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-900 border-t border-blue-800">
+            <div class="px-4 pt-2 pb-4 space-y-2">
+                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-blue-800">Home</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-blue-800">About</a>
+                <a href="#expertise" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-blue-800">Expertise</a>
+                <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-blue-800">Experience</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-white hover:bg-blue-800">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="relative bg-white pt-24 pb-32 overflow-hidden border-b border-gray-200">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-50 to-white z-0"></div>
+        
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center">
+            <div class="w-48 h-48 md:w-56 md:h-56 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden border-4 border-white shadow-2xl mb-8">
+                <span class="text-gray-500 font-medium"><img src="blob:https://gemini.google.com/7690afb6-130d-4acf-9666-4fe5d2cd7e5e" alt="profil image"></span>
+            </div>
+            
+            <h1 class="text-4xl tracking-tight font-black text-blue-950 sm:text-5xl md:text-6xl">
+                Dr. Shivani Das
+            </h1>
+            <p class="mt-2 text-2xl font-medium text-sky-600">MD - Medicine Specialist</p>
+            
+            <p class="mt-6 text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto">
+                Providing evidence-based, compassionate care for complex medical conditions. Partnering with you to achieve optimal health through accurate diagnostics and personalized treatment strategies.
+            </p>
+            
+            <div class="mt-10">
+                <a href="#contact" class="inline-flex items-center justify-center px-10 py-4 border border-transparent text-lg font-bold rounded-full text-white bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                    Book a Consultation
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-bold text-sky-600 tracking-wide uppercase">Core Services</h2>
+                <h3 class="mt-2 text-3xl font-black text-blue-950 sm:text-4xl">Areas of Expertise</h3>
+                <div class="w-24 h-1 bg-sky-500 mx-auto mt-6"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl transition-shadow border-t-4 border-blue-950 text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🫀</div>
+                    <h4 class="text-xl font-bold text-blue-950 mb-3">Cardiovascular & Critical Care</h4>
+                    <p class="text-gray-600 leading-relaxed">Expert management of hypertension, heart disease, and life-threatening conditions requiring intensive monitoring and acute medical intervention.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl transition-shadow border-t-4 border-sky-500 text-center transform md:-translate-y-4">
+                    <div class="w-16 h-16 bg-sky-50 text-sky-500 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🩺</div>
+                    <h4 class="text-xl font-bold text-blue-950 mb-3">Diabetes & Endocrinology</h4>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive care plans for regulating blood sugar levels in Type 1 and Type 2 diabetes, along with targeted treatments for thyroid and glandular disorders.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl transition-shadow border-t-4 border-blue-950 text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl">🔬</div>
+                    <h4 class="text-xl font-bold text-blue-950 mb-3">Gastro & Internal Medicine</h4>
+                    <p class="text-gray-600 leading-relaxed">Specialized diagnosis and holistic management of digestive system disorders, liver diseases, respiratory illnesses, and chronic internal medical conditions.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                
+                <div>
+                    <h2 class="text-sm font-bold text-sky-600 tracking-wide uppercase">Physician Profile</h2>
+                    <h3 class="mt-2 text-3xl font-black text-blue-950 mb-6">About the Doctor</h3>
+                    <div class="prose prose-lg text-gray-600">
+                        <p class="font-bold text-gray-900 text-xl mb-4">Shivani Das, MBBS, MD (General Medicine)</p>
+                        <p class="mb-4">
+                            With years of rigorous medical training and clinical practice, I am committed to delivering the highest standard of healthcare. My philosophy centers on treating the patient as a whole, rather than just addressing isolated symptoms.
+                        </p>
+                        <p>
+                            I continually stay abreast of the latest medical research to ensure my patients benefit from modern, evidence-based treatments. Healing is a journey, and my goal is to guide you with expertise, transparency, and deep compassion.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="experience" class="bg-gray-50 p-8 rounded-2xl border border-gray-100">
+                    <h3 class="text-2xl font-black text-blue-950 mb-8 flex items-center">
+                        <span class="mr-3 text-sky-500">🏛️</span> Professional Background
+                    </h3>
+                    
+                    <ul class="space-y-8">
+                        <li class="relative pl-6 border-l-2 border-sky-200">
+                            <div class="absolute w-3 h-3 bg-sky-500 rounded-full -left-[7px] top-2"></div>
+                            <h4 class="text-lg font-bold text-blue-950">Senior Resident</h4>
+                            <p class="text-sky-600 font-medium">AROGYA HOSPITAL AND RESEARCH CENTRE, BONGAIGAON</p>
+                            <span class="text-sm font-bold text-gray-400">2018 - Present</span>
+                        </li>
+                        <li class="relative pl-6 border-l-2 border-sky-200">
+                            <div class="absolute w-3 h-3 bg-sky-500 rounded-full -left-[7px] top-2"></div>
+                            <h4 class="text-lg font-bold text-blue-950">Medical Officer</h4>
+                            <p class="text-sky-600 font-medium"></p>
+                            <span class="text-sm font-bold text-gray-400">2015 - 2018</span>
+                        </li>
+                        <li class="relative pl-6 border-transparent">
+                            <div class="absolute w-3 h-3 bg-sky-500 rounded-full -left-[7px] top-2"></div>
+                            <h4 class="text-lg font-bold text-blue-950">MBBS & MD</h4>
+                            <p class="text-sky-600 font-medium"></p>
+                            <span class="text-sm font-bold text-gray-400">Graduated 2015</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-blue-950 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                
+                <div class="lg:col-span-5">
+                    <h2 class="text-3xl font-black mb-6">Schedule a Visit</h2>
+                    <p class="text-blue-200 mb-10 text-lg">Don't delay your health. Reach out today to book an appointment or ask a question.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-sky-400 text-2xl mr-4">🏥</div>
+                            <div>
+                                <h4 class="font-bold text-lg">Medcare</h4>
+                                <p class="text-blue-200 mt-1"><br></p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-sky-400 text-2xl mr-4">🕒</div>
+                            <div>
+                                <h4 class="font-bold text-lg">Consultation Hours</h4>
+                                <p class="text-blue-200 mt-1">Mon - Sat: 4:00 PM - 7:00 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="text-sky-400 text-2xl mr-4">📞</div>
+                            <div>
+                                <h4 class="font-bold text-lg">Direct Line</h4>
+                                <a href="tel:+919876543210" class="text-blue-200 hover:text-white transition mt-1 block">+91 98765 43210</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 bg-white rounded-2xl p-8 sm:p-10 shadow-2xl text-gray-800">
+                    <form action="#" method="POST" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="first-name" class="block text-sm font-bold text-gray-700 mb-1">First Name *</label>
+                                <input type="text" id="first-name" required class="w-full rounded-md border-gray-300 bg-gray-50 border p-3 focus:ring-2 focus:ring-sky-500 focus:border-sky-500 outline-none transition">
+                            </div>
+                            <div>
+                                <label for="last-name" class="block text-sm font-bold text-gray-700 mb-1">Last Name</label>
+                                <input type="text" id="last-name" class="w-full rounded-md border-gray-300 bg-gray-50 border p-3 focus:ring-2 focus:ring-sky-500 focus:border-sky-500 outline-none transition">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-bold text-gray-700 mb-1">Email Address *</label>
+                            <input type="email" id="email" required class="w-full rounded-md border-gray-300 bg-gray-50 border p-3 focus:ring-2 focus:ring-sky-500 focus:border-sky-500 outline-none transition">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-bold text-gray-700 mb-1">How can we help? *</label>
+                            <textarea id="message" rows="4" required class="w-full rounded-md border-gray-300 bg-gray-50 border p-3 focus:ring-2 focus:ring-sky-500 focus:border-sky-500 outline-none transition"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-md transition shadow-md">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-blue-950 py-8 border-t border-blue-900 pb-20">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-blue-400 text-sm">© <span id="year"></span> Dr. Shivani Das. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="fixed bottom-0 w-full bg-blue-900 border-t border-blue-800 shadow-2xl z-50 transform transition-transform duration-300 translate-y-0 text-white">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-sm text-blue-200 text-center sm:text-left">
+                This website uses cookies to provide necessary site functionality and improve your experience.
+            </p>
+            <div class="flex gap-3">
+                <button id="decline-cookies" class="px-4 py-2 text-sm font-bold text-blue-200 bg-transparent border border-blue-700 hover:bg-blue-800 rounded-md transition">Decline</button>
+                <button id="accept-cookies" class="px-4 py-2 text-sm font-bold text-blue-900 bg-sky-400 hover:bg-sky-300 rounded-md transition">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Mobile Menu Logic
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const menuLinks = menu.querySelectorAll('a');
+
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+        menuLinks.forEach(link => link.addEventListener('click', () => menu.classList.add('hidden')));
+
+        // Cookie Banner Logic
+        const cookieBanner = document.getElementById('cookie-banner');
+        const hideBanner = () => cookieBanner.classList.add('translate-y-full');
+        document.getElementById('accept-cookies').addEventListener('click', hideBanner);
+        document.getElementById('decline-cookies').addEventListener('click', hideBanner);
+
+        // Dynamic Year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
